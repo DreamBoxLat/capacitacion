@@ -1,6 +1,6 @@
 #### Clonamos el repositorio
 
-```git clone```
+```git clone https://github.com/DreamBoxLat/capacitacion.git```
 
 #### Iniciamos la red de desarrollo en truffle
 
