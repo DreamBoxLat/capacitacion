@@ -2,6 +2,10 @@
 
 ```git clone https://github.com/DreamBoxLat/capacitacion.git```
 
+```cd capacitacion```
+
+```npm install```
+
 #### Iniciamos la red de desarrollo en truffle
 
 ```truffle dev```
