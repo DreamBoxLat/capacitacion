@@ -69,7 +69,7 @@
 ##### Salimos y editamos el MNEMONICO dentro del script
 ``CTRL + C``
 
-####Editamos###
+####Editamos
 ``nano src/functions/etherSender.js``
 
 ``CTRL+X``
