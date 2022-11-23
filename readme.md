@@ -11,10 +11,10 @@
 ```truffle dev```
 
 #### Compilamos y deployamos el contrato
+
 ```compile```
+
 ```migrate```
-
-
 
 #### Creamos una instancia del contrato para poder efectuar llamadas sobre el
 
@@ -70,12 +70,16 @@
 ``CTRL + C``
 ###Editamos###
 ``nano src/functions/etherSender.js``
+
 ``CTRL+X``
+
 ``Y``
 #### volvemos a ejecutar y deployar
 
 ```truffle dev```
+
 ```compile```
+
 ```migrate```
 
 #### Ejecutamos el script
