@@ -7,7 +7,7 @@ require("dotenv").config();
 const NODE_IP = "127.0.0.1";
 const NODE_PORT = "9545";
 const MNEMONIC =
-  "rally dust cloth drink goose quit nephew oxygen pluck floor material credit";
+  "";
 
 RPC_CONNECTION = `http://${NODE_IP}:${NODE_PORT}`;
 
@@ -30,7 +30,7 @@ module.exports = async function (callback) {
 
   // Get  ABI from json of compiled contract
   const json = require("../../build/contracts/EtherSender");
-  const contractAddress = "0x2D86246caf778897E6FaD36bb8d1b68FCb1D16FE";
+  const contractAddress = json.networks["5777"].address;
 
   const Contract = web3.eth.Contract;
   const contract = new Contract(json.abi, contractAddress);
