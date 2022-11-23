@@ -66,13 +66,25 @@
 
 `instance.withdrawAll({from: accounts[1]})`
 
+##### Salimos y editamos el MNEMONICO dentro del script
+``CTRL + C``
+###Editamos###
+``nano src/functions/etherSender.js``
+``CTRL+X``
+``Y``
+#### volvemos a ejecutar y deployar
+
+```truffle dev```
+```compile```
+```migrate```
 
 #### Ejecutamos el script
+
 
 `exec src/functions/etherSender.js`
 
 
 #### verificamos la cuenta de destino
 
-await web3.eth.getBalance(accounts[1])
+```await web3.eth.getBalance(accounts[1])```
 
